@@ -1,0 +1,28 @@
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    stack:
+      auto: false
+    credentials:
+      access-key: AKIAVLID3BZYKTIH54M2
+      secret-key: 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
+    end-point:
+      uri: https://sqs.us-east-1.amazonaws.com/367764639344/shreya-tweet-app-queue
+application:
+  bucket:
+    name: react-direct-upload-bucket-s3
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 10MB
+      max-file-size: 8MB
+      max-request-size: 10MB
+
+server:
+  port: 8083
+
+

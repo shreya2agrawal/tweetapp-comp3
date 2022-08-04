@@ -1,0 +1,12 @@
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    stack:
+      auto: false
+    credentials:
+      access-key: AKIAVLID3BZYKTIH54M2
+      secret-key: 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
+    end-point:
+      uri: https://sqs.us-east-1.amazonaws.com/367764639344/shreya-tweet-app-queue
