@@ -1,0 +1,41 @@
+
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.login-form-section {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.toggle-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.login-component {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 16px;
+    row-gap: 8px;
+    width: 440px;
+}
+
+.wid-300 {
+    width: 300px;
+}
+
+.api-error {
+    font-size: 22px;
+    font-weight: 700;
+    color: red;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
